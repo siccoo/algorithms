@@ -10,7 +10,8 @@ function isPalindrome(string){
     if (lettersArr.join('') === lettersArr.reverse().join('')) return true;
     else return false
 }
-console.log(isPalindrome("race car"));
+let result = isPalindrome("race car");
+console.log(result)
 
 // PALINDROME'S METHODS 
 function palindrome(str) {
@@ -19,11 +20,13 @@ function palindrome(str) {
     });
 }
 
-console.log(palindrome('ada'))
+let res = palindrome('ada');
+console.log(res)
 
 // METHOD TWO ON PALINDROME
 function pal(x) {
     let A = x.split('').reverse().join('');
     return x === A
 }
-console.log(pal('eve'))
+let resulte = pal('eve');
+console.log(resulte)
