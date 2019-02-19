@@ -91,3 +91,6 @@ console.log(result);
 
 let res = meanMedianMode([4, 2, 1, 1, 3, 4, 6, 7, 4]);
 console.log(res);
+
+let resu = meanMedianMode([8, 12, 24, 24, 12, 8]);
+console.log(resu)
