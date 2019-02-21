@@ -19,5 +19,5 @@ function fibMemo(index, cache) {
     return cache[index];
 }
 
-let result = fibMemo(50);
+let result = fibMemo(1000);
 console.log(result);
