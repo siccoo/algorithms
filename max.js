@@ -6,7 +6,18 @@ function maxStockProfit(pricesArr) {
     let changeBuyPrice = true;
 
     for (let i = 0; i < pricesArr.length; i++) {
-        buyPrice = pricesArr[i];
-        sellPrice = pricesArr[i + 1];
+        if (changeBuyPrice) {
+            buyPrice = pricesArr[i];
+            sellPrice = pricesArr[i + 1];
+        }
+
+        if (sellPrice < buyPrice) {
+            changeBuyPrice = true;
+        } else {
+            let tempProfit = sellPrice - buyPrice;
+            if (tempProfit === maxProfit) {
+                
+            }
+        }
     }
 }
