@@ -29,3 +29,6 @@ function merge(arr1, arr2) {
 
     return result;
 }
+
+let result = mergeSort([6000, 34, 203, 3, 746, 200, 984, 198, 764, 1, 9, 1]);
+console.log(result);
